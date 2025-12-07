@@ -1,22 +1,3 @@
-cart=["Milk","Bread","Eggs"]
-cart.push("Butter")
-cart.shift()
-cart.unshift("Juice")
-console.log(cart)
-
-prices=[10,20,30,40]
-updatedPrice=prices.map((price)=>price+(price*0.15))
-console.log(`The old price is ${prices}`)
-console.log(`The new price is ${updatedPrice}`)
-
-
-function printTable(num){
-    for (i=1; i<=10; i++){
-       times=num*i
-        console.log(`${num}*${i}=${times}`)
-     }
- }
-printTable(7)
 
 function product(productName,price,inStock){
     this.productName=productName,
